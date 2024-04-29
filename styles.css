@@ -5,13 +5,6 @@ h1{
     letter-spacing: 30px;
 }
 
-h2{
-    text-align: center;
-    font-size: 30px;
-    font-family:'Arial Narrow Bold';
-    margin-top: -15px;
-}
-
 ul{
     display: flex;
     gap: 160px;
@@ -35,7 +28,32 @@ ul{
     gap: 20px;
 }
 
+h2{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    font-family:'Arial Narrow Bold';
+    margin-top: -15px;
+}
 
+h2::after, h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    top: 0.6em;
+}
+h2::before{
+    left: -130px;
+
+}
+h2::after{
+    right: -130px;
+}
+.lines-effect{
+    margin-left: 420px;
+}
 
 
 
