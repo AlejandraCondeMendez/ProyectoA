@@ -9,11 +9,11 @@ h1{
     text-align: center;
     font-size: 45px;
     font-family: 'Arial Narrow Bold';
-    letter-spacing: 30px;
+    letter-spacing: 9px;
     margin-left: 20px;
 }
 
-ul{
+.listauno{
     display: flex;
     gap: 160px;
     list-style: none;
@@ -22,17 +22,16 @@ ul{
 }
 .contacto-tel{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
-
 .correo{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .location{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 h2{
@@ -47,7 +46,7 @@ h2::after, h2::before{
     content: '';
     position: absolute;
     width: 120px;
-    height: 2px;
+    height: 1px;
     background-color: black;
     top: 0.6em;
 }
@@ -63,10 +62,6 @@ h2::after{
 }
 
 
-h3{
-    margin-top: 100px;
-}
-
 circle{
     fill: none;
     stroke: #aaa;
@@ -80,6 +75,7 @@ circle{
 circle:nth-child(2){
     stroke: grey;
     stroke-dasharray: var(--percentaje) 100;
+
 }
 
 .porcentaje{
@@ -101,15 +97,128 @@ circle:nth-child(2){
 
 .cont-skills{
     display: flex;
-    margin: 60px;
+    margin: 30px;
+    margin-left: 65px;
 }
 
 .skills{
     display: flex;
-    margin-top: 150px;
-    position: relative;
-    transform: translateX(25%);
+    margin-top: 130px;
+    text-align: center;
 }
+
+
+hr{
+    height: 1px;
+    background-color: #000;
+    margin-top: 65px;
+    
+}
+
+h3{
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 25px
+}
+
+p{
+    font-size: 21px;
+    margin-left: 60px ;
+}
+
+
+.listados{
+    font-size: 18px;
+    margin-left: 45px;
+   li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }     
+}
+
+
+.music{
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    i{
+        position: relative;
+        left: 10px;
+        font-size: 40px;
+    }
+    li{
+        position: relative;
+        bottom: -40px;
+        left: -58px;
+    }
+}
+.cont-principal{
+    margin-top: 100px;
+}
+.kit{
+    list-style: none;
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+    i{
+        position: relative;
+        left: 10px;
+        font-size: 40px;
+    }
+    
+    li{
+        position: relative;
+        bottom: -40px;
+        left: -58px;
+    }
+
+}
+
+ul{
+    font-size: 20px;
+
+}
+.hikking{
+    list-style: none;
+}
+
+.hobby{
+    position: absolute;
+    top: 1050px;
+    right:290px;
+   
+}
+
+.linea-vertical{
+    height: 450px;
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 600px;
+    bottom: -950px;
+}
+
+img{
+    max-height: 400px;
+    max-width: 300px;
+    position: absolute;
+    left: 750px;
+    bottom: -460px;
+}
+
+img:hover{
+    transform: rotate(360deg);
+    transition: 5s ease all;
+}
+
+
+i:hover{
+    transform: translateX(10px);
+    transform: translateX(-10px);
+    transition: 0.5s ease all;
+}
+
+
 
 
 
